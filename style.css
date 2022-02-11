@@ -1,0 +1,62 @@
+body {
+  --drop-shadow: -8px -8px 20px -19px rgba(255, 255, 255, 0.9),
+  12px 12px 40px -5px rgba(50, 58, 73, 0.3);
+}
+
+
+button {
+
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: #5417BD;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.cookie-container {
+
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  border-radius: 30px;
+  background: #9381ff;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  height: 10rem;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.text {
+
+  height: 100%;
+  width: 50%;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+}
+
+h2 {
+
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+body {
+
+  height: 100vH;
+  background-color: rgba(147, 129, 255, 0.9);
+}
+
+.cookie {
+
+  padding-right: 2rem;
+}
+
+.shape-drop-shadow {
+  box-shadow: var(--drop-shadow);
+}
