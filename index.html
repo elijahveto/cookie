@@ -10,8 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  function animateCookie() {
+    gsap.to('.cookie svg #Group #crumbs', {y: 50, opacity: 0, duration: 1})
+  }
+</script>
 <body>
-</body>
 <div class="cookie-container shape-drop-shadow">
   <div class="cookie">
     <svg width="131" height="128" viewBox="0 0 131 128" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,14 +53,6 @@
     <p class="cookie-info">Om nom nom!</p>
     <button onclick="animateCookie()">gimme</button>
   </div>
-
 </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    function animateCookie() {
-      gsap.to('.cookie svg #Group #crumbs', {y: 50, opacity: 0, duration: 1})
-    }
-  </script>
+</body>
 </html>
